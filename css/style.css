@@ -22,7 +22,6 @@ body{
     background: linear-gradient(deeppink, purple);
     padding: 5.5rem;
     gap: 10px;
-    padding-bottom: 30px;
 }
 section{
     padding: 1rem 7%;
@@ -145,6 +144,7 @@ header .navbar ul li a:hover{
     background: rgba(255,255,255,.1);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
     transition: .2s linear;
+    margin-bottom: 5rem;
 }
 .home .share a{
     background: rgba(255,255,255,.2);
@@ -354,4 +354,16 @@ header .navbar ul li a:hover{
     margin: 2rem 2.5rem;
     box-shadow: 0 0 0 .5rem rgba(255,255,255,.2),
                 0 1rem 2rem rgba(0,0,0,.4);
+}
+
+@media only screen and (max-width:900px) {
+    body{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .share{
+        width: 100%;
+    }
 }
