@@ -21,6 +21,7 @@ body{
     justify-content: space-between;
     background: linear-gradient(deeppink, purple);
     padding: 5.5rem;
+    gap: 10px;
     padding-bottom: 30px;
 }
 section{
