@@ -331,29 +331,27 @@ header .navbar ul li a:hover {
 
 .contact .row {
     display: flex;
-    justify-content: space-between;
     padding-top: 7rem;
     align-items: center;
 }
 
 .contact .row form {
-    background: rgba(255, 255, 255, .1);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
     flex-wrap: wrap;
+    width: 55%;
 }
 
 .contact .row form .box {
     background: rgba(255, 255, 255, .1);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     border-radius: 1rem;
     padding: 0 1rem;
     margin: 0.5rem 0;
     height: 4rem;
-    width: 98%;
+    width: 100%;
     font-size: 1.7rem;
     color: #fff;
     text-transform: none;
@@ -373,10 +371,12 @@ header .navbar ul li a:hover {
 
 .contact .row form .btn {
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .contact .row .content {
-    padding: 0 5rem;
+    padding-left: 1.5rem;
+    width: 45%;
 }
 
 .contact .row .content .icons {
@@ -439,11 +439,25 @@ header .navbar ul li a:hover {
         flex-direction: column;
         margin-bottom: 0rem;
     }
-
+    .education .box-container .box {
+        width: 27rem;
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
     .contact .row {
         flex-direction: column;
     }
-
+    .contact .row form {
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contact .row .content {
+        width: 100%;
+        margin-top: 20px;
+    }
     .theme-toggler {
         backdrop-filter: blur(.4rem);
         display: flex;
